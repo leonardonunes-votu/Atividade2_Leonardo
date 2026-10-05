@@ -9,8 +9,40 @@
             width: 300px;
             height: 200px;
         }
+        #CSS{
+            color:coral;
+        }
         h1, p {
             text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        hr{
+            border: 8px solid black;
+        }
+        #fundo{
+            background-color: rgb(33, 190, 230);
+        }
+        .cor{
+            color: rgb(204, 0, 255);
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        .font{
+            font-size: 25px;
+            border: 2px solid rgb(171, 207, 9);
+        }
+        .size{
+            font-style:italic ;
+            font-size: 30px;
+            text-decoration:underline;
+            background-color: rgb(97, 33, 170);
+            color: coral;
+        }
+        .border{
+            border: 2px solid rgb(171, 207, 9);
+            font-style: italic;
+            text-decoration: underline;
+            color: limegreen;
         }
     </style>
 </head>
@@ -24,7 +56,7 @@
     <img src="_imagens/css04.png">
     <hr>
 
-    <h1 >CSS É VIDA</h1>
+    <h1 id="CSS">CSS É VIDA</h1>
     <p>Diversas possibilidades de Incrementar seu HTML</p>
 
     <h1>Exemplo de Cores no CSS</h1>
@@ -32,15 +64,15 @@
     <p id="fundo">Exemplo de texto com cor de fundo</p>
 
     <hr>
-    <p>Exemplo de texto com mudança de cor da fonte </p>
+    <p class="cor">Exemplo de texto com mudança de cor da fonte </p>
     <hr>
 
-    <p>Exemplo de texto com borda colorida</p>
+    <p class="font">Exemplo de texto com borda colorida</p>
 
     <h1>Misturando Tudo</h1>
 
-    <p>Exemplo de texto com várias formatações</p>
+    <p class="border">Exemplo de texto com várias formatações</p>
 
-    <p>Mais um exemplo</p>
+    <p class="size"><b>Mais um exemplo<b></p>
 </body>
 </html>
